@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:background="@drawable/skyimage"
+    tools:context=".MyTrueAnimTwo">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll1"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/yellobubble"
+            android:layout_margin="5dp"
+            android:src="@drawable/tyello"/>
+
+        <ImageView
+            android:id="@+id/bluebubble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/tblue" />
+
+        <ImageView
+            android:id="@+id/violetbubble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/tviolet" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/retbubble"
+            android:layout_margin="5dp"
+            android:src="@drawable/tred"/>
+
+        <ImageView
+            android:id="@+id/greenbubble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/tgreen" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll2"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:id="@+id/redbubble1"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tred" />
+
+        <ImageView
+            android:id="@+id/yellowbubble1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/tyello" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:id="@+id/bluebubble1"
+            android:src="@drawable/tblue"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll3"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:id="@+id/violetbubble2"
+            android:src="@drawable/tviolet"/>
+
+        <ImageView
+            android:id="@+id/greenbubble2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/tgreen" />
+
+        <ImageView
+            android:id="@+id/bluebubble2"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tblue" />
+
+        <ImageView
+            android:id="@+id/yellobubble2"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/tyello" />
+
+        <ImageView
+            android:id="@+id/redbubble2"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tred" />
+    </LinearLayout>
+</LinearLayout>
